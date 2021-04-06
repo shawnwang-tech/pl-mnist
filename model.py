@@ -8,7 +8,7 @@ from torch.utils.data import TensorDataset, DataLoader, random_split
 from torchvision.datasets import MNIST
 from torchvision import datasets, transforms
 
-from pytorch_lightning.callbacks import EarlyStopping, LearningRateLogger, ModelCheckpoint
+from pytorch_lightning.callbacks import EarlyStopping, ModelCheckpoint
 
 
 class LightningMNISTClassifier(pl.LightningModule):
